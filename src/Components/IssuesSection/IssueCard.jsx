@@ -8,7 +8,7 @@ const IssueCard = ({ item, handleCard }) => {
     return (
         <div
             onClick={() => handleCard(item)}
-            className='p-4 bg-white rounded-xl flex flex-col gap-2 shadow-sm'>
+            className='p-4 bg-white rounded-xl flex flex-col gap-2 shadow-sm h-36'>
             <div className='flex justify-between'>
                 <h3 className='font-semibold'> {item.title} </h3>
                 <div className={`py-1 px-3 rounded-full ${item.status == 'Open' ? 'bg-green-100 text-green-600' : 'bg-amber-100 text-amber-600'}`}>
