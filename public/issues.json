@@ -75,7 +75,7 @@
     "id": 1009,
     "title": "Incorrect Order Details Displayed",
     "description": "Users are seeing incorrect order details in their order history. This may be a data mismatch or caching issue.",
-    "status": "Resolved",
+    "status": "Open",
     "priority": "Medium",
     "assignedTo": "Olivia Martinez",
     "date": "2024-01-23"

@@ -3,7 +3,7 @@ import Container from '../container';
 import bgImg2 from '../../assets/progressBg2.png'
 import bgImg1 from '../../assets/progressBg.png'
 
-const ProgressBar = () => {
+const ProgressBar = ({ issues }) => {
     return (
         <Container>
             <div className='md:flex gap-2 my-5 space-y-2'>
@@ -17,7 +17,7 @@ const ProgressBar = () => {
                     className='flex flex-1 h-56 items-center justify-center font-bold text-white rounded-md text-center'>
                     <div>
                         <p>In Progress</p>
-                        <p className='text-5xl '>0</p>
+                        <p className='text-5xl '> {issues.length} </p>
                     </div>
                 </div>
                 <div
