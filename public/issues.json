@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still cannot access their account. The issue may be related to incorrect credentials, account lockout, or a possible system error. Further investigation is required to resolve the problem and restore access.",
+    "status": "Open",
+    "priority": "High",
+    "assignedTo": "John Smith",
+    "date": "2024-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed but Amount Deducted",
+    "description": "Customer reports that payment failed during checkout but the amount was deducted from their bank account. The transaction needs to be verified and refunded if necessary.",
+    "status": "Open",
+    "priority": "High",
+    "assignedTo": "Sarah Lee",
+    "date": "2024-01-16"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Update Profile Information",
+    "description": "User is unable to update their profile details such as name and phone number. The save button appears unresponsive. This might be a frontend or API issue.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignedTo": "David Miller",
+    "date": "2024-01-17"
+  },
+  {
+    "id": 1004,
+    "title": "Email Notifications Not Received",
+    "description": "Customer is not receiving any email notifications including password reset and order confirmations. Possible issue with email service or spam filtering.",
+    "status": "Open",
+    "priority": "Medium",
+    "assignedTo": "Emily Clark",
+    "date": "2024-01-18"
+  },
+  {
+    "id": 1005,
+    "title": "Website Loading Very Slow",
+    "description": "User reports that the website is loading very slowly, especially on the dashboard page. This may be due to server performance or large assets.",
+    "status": "In Progress",
+    "priority": "High",
+    "assignedTo": "Michael Brown",
+    "date": "2024-01-19"
+  },
+  {
+    "id": 1006,
+    "title": "Error 500 on Checkout Page",
+    "description": "Customer encounters a 500 Internal Server Error when trying to complete the checkout process. Needs urgent backend investigation.",
+    "status": "Open",
+    "priority": "High",
+    "assignedTo": "Chris Evans",
+    "date": "2024-01-20"
+  },
+  {
+    "id": 1007,
+    "title": "Search Function Not Working Properly",
+    "description": "Search results are not accurate and sometimes return empty results even for valid queries. Likely an issue with search indexing.",
+    "status": "In Progress",
+    "priority": "Low",
+    "assignedTo": "Sophia Turner",
+    "date": "2024-01-21"
+  },
+  {
+    "id": 1008,
+    "title": "App Crashes on Startup",
+    "description": "Mobile app crashes immediately after launch for some users. Could be related to a recent update or compatibility issue.",
+    "status": "Open",
+    "priority": "High",
+    "assignedTo": "Daniel Wilson",
+    "date": "2024-01-22"
+  },
+  {
+    "id": 1009,
+    "title": "Incorrect Order Details Displayed",
+    "description": "Users are seeing incorrect order details in their order history. This may be a data mismatch or caching issue.",
+    "status": "Resolved",
+    "priority": "Medium",
+    "assignedTo": "Olivia Martinez",
+    "date": "2024-01-23"
+  },
+  {
+    "id": 1010,
+    "title": "Password Reset Link Expired Too Quickly",
+    "description": "Customers report that password reset links expire within a few minutes, making it difficult to reset passwords. Needs configuration check.",
+    "status": "Open",
+    "priority": "Low",
+    "assignedTo": "James Anderson",
+    "date": "2024-01-24"
+  }
+]
